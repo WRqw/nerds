@@ -103,6 +103,34 @@ a{
 	height: 2px;
 	background: #fb565a;
 }
+.slider{
+	
+	position: relative;
+}
+.slider-controls{
+	position: absolute;
+	bottom: -220px;
+	left: 50%;
+	width: 200px;
+	height: 10px;
+	margin-left: -100px;
+	text-align: center;
+	z-index: 1000;
+}
+.slider-controls i{
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	margin: 0 3px;
+	background: white;
+	border: 3px solid white;
+	vertical-align: top;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.slider-controls .active{
+	background: #c1c1c1;
+}
 .main-info-pic{
 	float: right;
 	padding-top: 17px;
