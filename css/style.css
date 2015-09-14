@@ -139,6 +139,25 @@ a{
 	float: left;
 	width: 355px;
 }
+.main-info-pic{
+	position: relative;
+
+}
+.slide1{
+	display: none;
+}
+.slide2{
+	
+}
+.slide3{
+	display: none;
+}
+.slide3 img{
+	position: absolute;
+	left: -300px;
+	top: -6px;
+
+}
 .main-info{
 	margin-top: 50px;
 	padding-bottom: 80px;
